@@ -15,6 +15,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+.App {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('./assets/img/5495412.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 html {
@@ -88,7 +98,7 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  /* background-color: #121212; */
+  background-color: #0000007a;
 }
 
 nav.navbar a.navbar-brand {
@@ -151,16 +161,17 @@ transition: 0.3s ease-in-out;
   width: 60%;
   z-index: 1;
   transition: 0.3s ease-in-out;
+  filter: brightness(100%) invert(100%);
 }
 .social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+  filter: brightness(25%) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(100%) contrast(86%);
 }
 .navbar-text button {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 18px;
-  font-size: 18px;
+  padding: 14px 14px;
+  font-size: 1em;
   margin-left: 18px;
   position: relative;
   background-color: transparent;
@@ -236,14 +247,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
-.banner {
+/* .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/5160549.jpg');
+  background-image: url('./assets/img/5495412.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -309,5 +320,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .attribute , .banner a {
   color: white;
   font-size: 18px;
+  margin-bottom: 40px;
+  left: 50%;
+  /* position: relative; */
 }
+
+/* Skills CSS */
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-bx {
+  /* background: #000000; */
+  background-image: url("../src/assets/img/5160549.jpg");
+  background-position: top center;
+  background-size: cover;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  /* margin-top: -60px; */
+}
+
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill p {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+/* .background-image-left {
+  top: 25%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+} */
 
