@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/cute-panda-with-korean-love-sign-hand-cartoon.svg";
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
+import { isVisible } from "@testing-library/user-event/dist/utils";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -45,15 +48,22 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi! I'm Melody a `}<span className="wrap">{text}</span></h1>
-                        <p>Hello! I'm a second-year computer science major at CSULB with a passion for coding and technology. Currently, I'm working at Target and actively seeking an internship in the field of computer science to further enhance my skills.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <TrackVisibility>
+                        {({ isVisible }) =>
+                        <div className={isVisible? "animate__animated animate__fadeIn": ""}>
+                            <span className="tagline">Welcome to my Portfolio</span>
+                            <h1>{`Hi! I'm Melody a `}<span className="wrap">{text}</span></h1>
+                            <p>Hello! I'm a second-year computer science major at CSULB with a passion for coding and technology. Currently, I'm working at Target and actively seeking an internship in the field of computer science to further enhance my skills.</p>
+                            <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        </div>}
+                        </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
+                        <div className="header-img">
                         <img src={headerImg} alt="Header Img" />
-                        <div className="attribute">
+                        <p className="attribute">
                             Image by <a href="https://www.freepik.com/author/catalyststuff">catalyststuff</a> on Freepik
+                        </p>
                         </div>
                     </Col>
                 </Row>
