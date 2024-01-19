@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.31a2a41d.css",
-    "main.js": "/static/js/main.8f6e2ce5.js",
+    "main.css": "/static/css/main.3a7cb859.css",
+    "main.js": "/static/js/main.cf9ce5cd.js",
     "static/js/787.f0ba9cbb.chunk.js": "/static/js/787.f0ba9cbb.chunk.js",
     "static/media/mock-shop-project.png": "/static/media/mock-shop-project.6df5e803c21a26118bd4.png",
     "static/media/sign-up-project.png": "/static/media/sign-up-project.1a4f589be53f0137aee2.png",
@@ -25,12 +25,12 @@
     "static/media/linkedin-svgrepo-com.svg": "/static/media/linkedin-svgrepo-com.273511fb10ee9bfadc8cf9a87d4279e0.svg",
     "static/media/github-mark.svg": "/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/index.html",
-    "main.31a2a41d.css.map": "/static/css/main.31a2a41d.css.map",
-    "main.8f6e2ce5.js.map": "/static/js/main.8f6e2ce5.js.map",
+    "main.3a7cb859.css.map": "/static/css/main.3a7cb859.css.map",
+    "main.cf9ce5cd.js.map": "/static/js/main.cf9ce5cd.js.map",
     "787.f0ba9cbb.chunk.js.map": "/static/js/787.f0ba9cbb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31a2a41d.css",
-    "static/js/main.8f6e2ce5.js"
+    "static/css/main.3a7cb859.css",
+    "static/js/main.cf9ce5cd.js"
   ]
 }
