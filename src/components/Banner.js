@@ -61,9 +61,9 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={5}>
                         <div className="header-img">
                         <img src={headerImg} alt="Header Img" />
-                        <p className="attribute">
+                        <span className="attribute">
                             Image by <a href="https://www.freepik.com/author/catalyststuff">catalyststuff</a> on Freepik
-                        </p>
+                        </span>
                         </div>
                     </Col>
                 </Row>

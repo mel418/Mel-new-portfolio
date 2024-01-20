@@ -177,6 +177,12 @@ transition: 0.3s ease-in-out;
   background-color: transparent;
   transition: 0.3s ease-in-out;
 }
+
+.navbar-text a {
+  color: white !important;
+  text-decoration: none;
+}
+
 .navbar-text button span {
   z-index: 1;
 }
@@ -191,8 +197,8 @@ transition: 0.3s ease-in-out;
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-.navbar-text button:hover {
-  color: #121212;
+.navbar-text button:hover a {
+  color: #121212 !important;
 }
 .navbar-text button:hover::before {
   content: "";
@@ -327,14 +333,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .attribute , .banner a {
   color: white;
   font-size: 18px;
-  width: 75%;
-  align-self: center;
+  /* width: 75%; */
+  /* align-self: center; */
 }
 
 .banner .header-img {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  align-items: center;
 }
 
 
