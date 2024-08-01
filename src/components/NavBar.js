@@ -49,7 +49,7 @@ export const NavBar = () => {
                             <a href="https://www.instagram.com/mel.oh.dee/" rel="noreferrer" target="_blank"><img src={navIcon3} alt="" /></a>
                         </div>
                         {/* <button className="vvd" onClick = {() => console.log('connect')}><span>Let's connect</span></button> */}
-                        <button className="vvd"><a href="/ResumeFall2023.pdf" target="_blank" rel="noopener noreferrer">Download Resume Here!</a></button>
+                        <button className="vvd"><a href="/Resume-7-31-24.pdf" target="_blank" rel="noopener noreferrer">Download Resume Here!</a></button>
                     </span>
                 </Navbar.Collapse>
             </Container>
