@@ -1,36 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.f1546d0c.css",
-    "main.js": "/static/js/main.d8056781.js",
+    "main.js": "/static/js/main.23da4fbf.js",
     "static/js/787.f0ba9cbb.chunk.js": "/static/js/787.f0ba9cbb.chunk.js",
     "static/media/mock-shop-project.png": "/static/media/mock-shop-project.6df5e803c21a26118bd4.png",
     "static/media/sign-up-project.png": "/static/media/sign-up-project.1a4f589be53f0137aee2.png",
-    "static/media/cute-panda-with-korean-love-sign-hand-cartoon.svg": "/static/media/cute-panda-with-korean-love-sign-hand-cartoon.41aa69eb08993289d2f08e8a49f445a7.svg",
+    "static/media/cute-panda-with-korean-love-sign-hand-cartoon.svg": "/static/media/cute-panda-with-korean-love-sign-hand-cartoon.fb211702769ee07280f6f346b258ddc7.svg",
     "static/media/5160549.jpg": "/static/media/5160549.018bd3bfd56a1e168bed.jpg",
     "static/media/discord-music-bot.png": "/static/media/discord-music-bot.711f9a1d4f4949048df0.png",
-    "static/media/cat-computer.svg": "/static/media/cat-computer.5f7612da44e70dd18865cafe0a1d1200.svg",
+    "static/media/cat-computer.svg": "/static/media/cat-computer.56ca8077fb8c80a48fa70422ba397617.svg",
     "static/media/5495412.jpg": "/static/media/5495412.61523bea39899f09c79a.jpg",
     "static/media/MonaSans-Black.ttf": "/static/media/MonaSans-Black.6fce79234dc4a04f8a6a.ttf",
     "static/media/MonaSans-Bold.ttf": "/static/media/MonaSans-Bold.554f33ae1b0e7e57fef6.ttf",
     "static/media/MonaSans-Medium.ttf": "/static/media/MonaSans-Medium.0192d31a61110daa268a.ttf",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/meter4.svg": "/static/media/meter4.7ee6cf78bb9bede4a9ec1f9a49da1db6.svg",
-    "static/media/MELODY.svg": "/static/media/MELODY.1050145d48e03da63cf6de83e3ef1001.svg",
+    "static/media/meter4.svg": "/static/media/meter4.143ec7c19a73225cef2db36efe25e915.svg",
+    "static/media/MELODY.svg": "/static/media/MELODY.041d1f7b657c3025a97b6b43773f929a.svg",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/meter1.svg": "/static/media/meter1.7d7e619d4e7034b820d21677ea1526e9.svg",
-    "static/media/meter3.svg": "/static/media/meter3.90947632722344ed8174f40ebea6f1ba.svg",
-    "static/media/meter2.svg": "/static/media/meter2.22224773d50a654012c6f695cc82f169.svg",
+    "static/media/meter1.svg": "/static/media/meter1.b1c0e8b6293d26dce04d115fc3032aae.svg",
+    "static/media/meter3.svg": "/static/media/meter3.c8d0ba7133e3d6b71b8f0301ee94a695.svg",
+    "static/media/meter2.svg": "/static/media/meter2.0232e3cf80834fa53df4a31a1467106e.svg",
     "static/media/instagram-svgrepo-com.svg": "/static/media/instagram-svgrepo-com.0dd482fa842bd7851f54ff91a01be94a.svg",
-    "static/media/linkedin-svgrepo-com.svg": "/static/media/linkedin-svgrepo-com.273511fb10ee9bfadc8cf9a87d4279e0.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/static/media/linkedin-svgrepo-com.6c8a1838624b84884b07ec7787c254f8.svg",
     "static/media/github-mark.svg": "/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/index.html",
     "main.f1546d0c.css.map": "/static/css/main.f1546d0c.css.map",
-    "main.d8056781.js.map": "/static/js/main.d8056781.js.map",
+    "main.23da4fbf.js.map": "/static/js/main.23da4fbf.js.map",
     "787.f0ba9cbb.chunk.js.map": "/static/js/787.f0ba9cbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1546d0c.css",
-    "static/js/main.d8056781.js"
+    "static/js/main.23da4fbf.js"
   ]
 }
